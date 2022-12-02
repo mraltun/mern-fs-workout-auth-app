@@ -19,8 +19,6 @@ const Signup = () => {
       <label>Email</label>
       <input
         type='email'
-        name=''
-        id=''
         onChange={(e) => setEmail(e.target.value)}
         value={email}
       />
@@ -28,8 +26,6 @@ const Signup = () => {
       <label>Password</label>
       <input
         type='password'
-        name=''
-        id=''
         onChange={(e) => setPassword(e.target.value)}
         value={password}
       />
